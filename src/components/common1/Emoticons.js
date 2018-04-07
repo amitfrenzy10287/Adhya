@@ -1,0 +1,1 @@
+export neutral from '../../assets/images/emoticons/neutral.png';

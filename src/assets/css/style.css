@@ -1,0 +1,353 @@
+.card1 {
+      width:100%;
+      background: #fff; 
+      display: inline-block;
+      /*border-right: solid 6px yellow;*/
+      /*border: 1px solid #ddd;*/
+      /*padding: 10px;*/
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+
+    }
+
+    .profile_img{
+      float: left; 
+      width: 170px !important;
+      height: 122px !important;
+      margin-right: 10px !important;
+    }
+
+    .content1 {
+      float: left;
+      height: 140px;
+      width: 73%;
+      overflow: hidden;
+      padding: 5px;
+    }
+
+    .content1 h4 {
+      margin: 5px 0;
+    } 
+
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container1 {
+    padding: 2px 16px;
+}
+.border-btm{
+  border-bottom: solid 1px #ddd;
+}
+.padding-5{
+  padding: 5px;
+}
+
+.reply-card{ 
+    background: #fff;
+    display: inline-block;
+    /*border: 1px solid #ddd;*/
+    /*padding: 10px;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position: absolute;
+    width: 11%;
+    left: 1%;
+    top: 15%;
+    height:140px;
+    text-align: center;
+} 
+
+.user {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.nav-item{
+    padding:25px;
+}
+.nav-link{
+  font-size: 15px;
+}
+.active{
+    border-bottom:solid 5px #0099e2;
+    font-weight:bold;
+}
+.active a{
+    color:#0099e2 !important;
+}
+.navbar-nav{ 
+    border-top:solid 1px #ddd;
+}
+.header{
+    position : relative;
+    margin-left: 19%;
+    width:73%;
+    height:500px;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 30px #ddd; 
+}
+.menu{
+  position: absolute;
+    top: 80%;
+    left: 18%;
+}
+
+.profile_pic{
+     position: absolute;
+     top:50%;
+     left:8%; 
+}
+.profile_pic img{
+     width:123px;
+     border-radius: 50%;
+     height: 128px;
+     border:solid 2px #0099e2;
+}
+.user_info{
+    position: absolute;
+     top:60%;
+     left:22%;
+     width:30%;
+}
+.username{
+    font-size: 26px;
+    display: block;
+}
+.user_info small{
+  color:#716f6f;
+}
+.btn-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+
+.following{
+    position: absolute;
+    left:46%;
+    top:60%;
+}
+.header-top{
+    position: absolute;
+    width: 100%;
+    height:65px;
+    top:42%; 
+    background-color: #fff;
+    opacity: 0.8; 
+}
+.banner-top{ 
+    position: absolute;
+    width: 100%; 
+    height: 55%;
+    top:0%; 
+}
+.body-box{
+    position : relative;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 30px #ddd; 
+    margin-top:2%;
+    margin-left: 11px;
+}
+.menu-box{
+    border: solid 1px #ddd;
+    box-shadow: 0 0 30px #ddd;
+    margin-top: 21px;
+    margin-left: 2%;
+    max-height:800px; 
+}
+.filter h5{
+    margin-top: 26px;
+    line-height: 46px;
+    border-bottom: 1px solid #ddd;
+}
+.leftMenu{
+    padding:5px;
+}
+
+.filter h6{
+    margin-top: 26px; 
+    margin-left: 10px;
+}
+
+.tweetCard{
+     /*border-bottom: 1px solid #ddd;*/
+    /* padding: 10px;*/ 
+    padding: 17px 17px 0px 17px;
+    margin-bottom: 40px;
+    border:solid 1px #ddd;
+}
+.tweetCardPanel{
+    /*margin-left: 10% !important;*/
+}
+.com-like-box{
+    border-top:solid 1px #ddd;
+    padding: 12px;
+    /*height: 50px;*/
+}
+
+.card-body{
+    padding: 0px !important;
+    min-height: 122px;
+    /*border-right: solid 5px yellow;*//*#26da05*/
+}
+.userProfile{
+    margin-top:2%;
+    margin-left:3%;
+}
+.userProfile img{ 
+    border:solid 1px #ddd;
+    border-radius: 50%;
+}
+.tweetBody{
+    padding-top: 10%;
+}
+.rigght-commt-icone span{
+    padding:25px;
+    cursor: pointer;
+}
+.smile img{
+    width:2em !important;
+    height:2em !important;
+    margin-right:20px !important;
+}
+.mention_margin_top{
+    margin-top: 23px !important;
+}
+
+.metionFilter_margin_left{
+    margin-left: 1% !important;
+    width:18%;
+    padding: 28px;
+}
+.exportButton {
+    background-color: #ff008d; /* Pink */
+    border: none;
+    color: white;
+    padding: 15px 49px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.exportBtnPos{ 
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.mar-top-10{
+      margin-top: 11px;
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.retweetCards{
+    min-height: 150px;
+    margin-top: 30px;
+    /*border: solid 1px #ddd;*/
+}
+.retweetProfile{
+    position: absolute;
+    margin-left: -16%;
+    width: 100px;
+    top: 40%;
+}
+.sentiments{
+    position: absolute;
+    right: 4%;
+    height: 120px;
+    top: 8%;    
+}
+.bg-yellow{
+    background-color: #fbff00;
+}
+.bg-grey{
+    background-color: #ddd;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-green{
+    background-color: #2fff2f;
+}
+.engage_by_div{
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.innerChart{
+    position: relative;
+    width: 80%;
+    margin: 10%;
+    min-height: 800px;
+    border: solid 1px #ddd;
+    /*padding: 2%;*/
+}
+.singleChart{
+    padding: 1%;
+    display: inline;
+}
+.header-top-chart{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    /* top: 42%; */
+    background-color: #87bdff;
+    /* opacity: 0.5; */
+    /*margin-top: -14px;*/
+}
+.padd-top-10{
+    padding-top: 10px;
+    /*margin-left: 9%;*/
+    padding-left: 10% !important;
+}
+.allCharts{ 
+    margin-top: 30%;
+    margin-left: 4%;
+}
+.banner-chart{
+      max-height: 200px;
+}
+.chartTop{
+    top:17%;
+}
+.dataFilter{
+    margin-top:5%;    
+}
+.sortPastDate{
+    padding: 10px;
+}
+.filter-btn-sm{
+    padding: 8px 25px;
+}
+.EngageProfile{
+    position: absolute;
+    z-index: 9;
+    padding: 50px;
+}
